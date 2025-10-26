@@ -32,12 +32,13 @@ python youtube_downloader.py "https://www.youtube.com/playlist?list=PLAYLIST_ID"
 
 # Download with specific quality
 python youtube_downloader.py "https://www.youtube.com/watch?v=VIDEO_ID" -q 720p
-```bash
+```
 
 ### 4. Process Videos
 
 Edit `pipeline_config.yaml` to configure processing options, then run:
 
+```bash
 # Run the complete pipeline
 python pipeline_processor.py --config pipeline_config.yaml
 ```

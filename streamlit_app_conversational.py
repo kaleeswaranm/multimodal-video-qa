@@ -99,7 +99,7 @@ def display_qa_results_with_context(response):
 def main():
     """Main Streamlit app"""
     st.title("🎥 Conversational Video Q&A System")
-    st.markdown("Ask questions about your educational videos and get comprehensive answers with citations! with conversation memory and context-aware responses.")
+    st.markdown("Ask questions about your educational videos and get comprehensive answers with citations. Features conversation memory and context-aware responses.")
     
     # Load Q&A system
     qa_system = load_qa_system()

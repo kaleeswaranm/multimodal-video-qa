@@ -55,14 +55,19 @@ Then open your browser to `http://localhost:8501`
 
 ## The streamlit UI
 
+### Interface showing the system and conversation info with the list of available videos for searching
 ![Interface showing the system and conversation info with the list of available videos for searching](images/UI1.png)
 
+### Interface to ask question and configure the retrieval parameters
 ![Interface to ask question and configure the retrieval parameters](images/UI2.png)
 
+### Interface showing the answer and the citations with explainable evidence
 ![Interface showing the answer and the citations with explainable evidence](images/UI3.png)
 
+### Interface showing the expanded view of the citations and the current conversational context
 ![Interface showing the expanded view of the citations and the current conversational context](images/UI4.png)
 
+### Interface showing the all the previous conversations for the current session
 ![Interface showing the all the previous conversations for the current session](images/UI5.png)
 
 Support

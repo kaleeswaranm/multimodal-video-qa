@@ -72,6 +72,9 @@ class VideoQAPipeline:
         self.logger.info(f"[{elapsed:.1f}s] {stage_name}: {message}")
     
     def run_audio_stage(self) -> bool:
+        """Audio processing is disabled - skip this stage"""
+        self._log_stage("AUDIO", "Skipped (audio processing disabled)")
+        return True
         """Run audio processing stage"""
         try:
             self._log_stage("AUDIO", "Starting audio processing")

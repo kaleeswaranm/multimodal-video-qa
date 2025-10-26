@@ -5,6 +5,8 @@
 
 [![Watch the demo](https://img.youtube.com/vi/Okxah0x88GM/maxresdefault.jpg)](https://www.youtube.com/watch?v=Okxah0x88GM)
 
+*Click the thumbnail above to watch the full demo*
+
 ## Quick Start
 
 ### 1. Installation
@@ -76,7 +78,8 @@ Then open your browser to `http://localhost:8501`
 
 ## 🤝 Contributing
 Contributions welcome! Please open an issue or submit a pull request.
-Note! This application is tested on MPS backend, if you face any issue with CUDA or CPU backend please raise and issue
+
+Note! This application is tested on MPS backend, if you face any issue with CUDA or CPU backend please raise an issue.
 
 ## 📄 License
 See LICENSE file for details.

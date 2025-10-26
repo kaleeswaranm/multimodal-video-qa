@@ -1,6 +1,8 @@
 # multimodal-video-qa
 🎥 Ask questions about video content and get intelligent, cited answers. Built with multimodal AI, conversational memory, and vector databases.
 
+[![Watch the video](https://raw.githubusercontent.com/kaleeswaranm/multimodal-video-qa/main/images/thumbnail.png)](https://raw.githubusercontent.com/kaleeswaranm/multimodal-video-qa/main/images/streamlit-streamlit_app_conversational-2025-10-26-18-10-28.mp4)
+
 ## Quick Start
 
 ### 1. Installation
@@ -70,5 +72,12 @@ Then open your browser to `http://localhost:8501`
 ### Interface showing the all the previous conversations for the current session
 ![Interface showing the all the previous conversations for the current session](images/UI5.png)
 
-Support
-For issues and questions, please open an issue on GitHub.
+## 🤝 Contributing
+Contributions welcome! Please open an issue or submit a pull request.
+Note! This application is tested on MPS backend, if you face any issue with CUDA or CPU backend please raise and issue
+
+## 📄 License
+See LICENSE file for details.
+
+## Social
+Connect with me on LinkedIn - https://www.linkedin.com/in/kaleeswaran-m/

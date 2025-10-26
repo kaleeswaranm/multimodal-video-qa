@@ -1,0 +1,47 @@
+# Video Q&A Pipeline Configuration
+
+# Paths
+paths:
+  input_videos_dir: "downloads"
+  processed_videos_dir: "processed_videos"
+
+# Stage control (set to false to skip a stage)
+stages:
+  audio: false # Do not run audio processing stage
+  segmentation: true
+  gpt4v: true
+  embeddings: true
+
+# Runtime settings
+runtime:
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+
+# Audio processing settings
+audio:
+  whisper_model: "base"  # tiny, base, small, medium, large
+  language: "en"           # Language code for Whisper (null for auto-detect)
+  compute_type: "int8"     # int8, float16, float32
+
+# Segmentation settings
+segmentation:
+  language: "en"           # Language code for Whisper (null for auto-detect)
+
+# GPT-4V settings
+gpt4v:
+  model: "gpt-4o-mini"     # gpt-4o-mini, gpt-4o
+  api_key: ""              # Leave empty to use OPENAI_API_KEY env var
+  request_delay: 1.0       # Delay between API requests (seconds)
+
+# Sliding window embedding settings
+sliding_window:
+  model_name: "intfloat/mmE5-mllama-11b-instruct"
+  window_size: 5           # Number of segments per window
+  hop_size: 3              # Number of segments to advance between windows
+
+# ChromaDB settings
+chroma:
+  vector_db_path: "vector_db"
+
+# OpenAI settings (for summarization in sliding window)
+openai:
+  api_key: ""              # Leave empty to use OPENAI_API_KEY env var

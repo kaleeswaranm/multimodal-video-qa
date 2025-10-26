@@ -1,6 +1,17 @@
 # multimodal-video-qa
 🎥 Ask questions about video content and get intelligent, cited answers. Built with multimodal AI, conversational memory, and vector databases.
 
+## Features
+
+- ** YouTube Video Download**: Download videos or playlists with automatic subtitle extraction
+- ** Audio Processing**: Automatic transcription using OpenAI Whisper
+- ** Context-Aware Segmentation**: Intelligent frame extraction based on video content and transcripts
+- ** GPT-4V Feature Extraction**: Visual understanding and multimodal feature extraction
+- ** Sliding Window Embeddings**: Semantic search using state-of-the-art multimodal embeddings (mmE5)
+- ** Conversational Memory**: Context-aware responses with automatic conversation summarization
+- ** Streamlit Web Interface**: Intuitive UI for interactive video Q&A
+- ** Citation Support**: Answers include video timestamps and frame references
+
 ## Quick Start
 
 ### 1. Installation

@@ -3,13 +3,11 @@
 
 ## 📖 Blog Post
 
-Read the complete <a href="https://medium.com/@kaleeswaran_41743/building-an-intelligent-video-conversational-q-a-system-with-multimodal-ai-from-concept-to-706766ce2588" target="_blank" rel="noopener noreferrer">technical article on Medium</a> to learn about the complete journey from idea to implementation.
+Read the complete [technical article on Medium](https://medium.com/@kaleeswaran_41743/building-an-intelligent-video-conversational-q-a-system-with-multimodal-ai-from-concept-to-706766ce2588) to learn about the complete journey from idea to implementation.
 
 ## 🎬 Demo Video
 
-<a href="https://www.youtube.com/watch?v=Okxah0x88GM" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.youtube.com/vi/Okxah0x88GM/maxresdefault.jpg" alt="Watch the demo" />
-</a>
+[![Watch the demo](https://img.youtube.com/vi/Okxah0x88GM/maxresdefault.jpg)](https://www.youtube.com/watch?v=Okxah0x88GM)
 
 *Click the thumbnail above to watch the full demo*
 
@@ -91,4 +89,4 @@ Note! This application is tested on MPS backend, if you face any issue with CUDA
 See LICENSE file for details.
 
 ## Social
-Connect with me on LinkedIn - <a href="https://www.linkedin.com/in/kaleeswaran-m/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/kaleeswaran-m/</a>
+Connect with me on LinkedIn - https://www.linkedin.com/in/kaleeswaran-m/

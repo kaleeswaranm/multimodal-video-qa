@@ -1,6 +1,10 @@
 # multimodal-video-qa
 🎥 Ask questions about video content and get intelligent, cited answers. Built with multimodal AI, conversational memory, and vector databases.
 
+## 📖 Blog Post
+
+Read the complete [technical article on Medium](https://medium.com/@kaleeswaran_41743/building-an-intelligent-video-conversational-q-a-system-with-multimodal-ai-from-concept-to-706766ce2588) to learn about the complete journey from idea to implementation.
+
 ## 🎬 Demo Video
 
 [![Watch the demo](https://img.youtube.com/vi/Okxah0x88GM/maxresdefault.jpg)](https://www.youtube.com/watch?v=Okxah0x88GM)
